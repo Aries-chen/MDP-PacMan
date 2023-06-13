@@ -1,6 +1,8 @@
 # MDP-PacMan
 MDP Agent in Pac-Man Game
 
+![image](https://github.com/Aries-chen/MDP-PacMan/assets/62194666/b39c152c-1acb-4bfc-8aa0-94f26c0498af)
+
 This project was developed while I was learning about Artificial Intelligence Reasoning and Decision Making. The entire structure has been implemented except for mdpAgents.py, where I write code to help PacMan survive.
 
 * Task: Using Markov Decision Process (MDP) to help PacMan avoids ghosts and pass the game without explicit motion control.
@@ -33,5 +35,3 @@ And -q runs the game without the interface (making it faster). I would suggest r
 * Results: Achieved excellence results in both small and medium-sized grids
 
 I think BFS is crucial in saving the PacMan as it allows to sense the enviroment and decide when to approach a scared ghost-eater and when to leave a ghost in a sinful state. 
-
-![image](https://github.com/Aries-chen/MDP-PacMan/assets/62194666/b39c152c-1acb-4bfc-8aa0-94f26c0498af)
