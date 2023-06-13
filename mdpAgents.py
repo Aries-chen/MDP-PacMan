@@ -1,7 +1,5 @@
 # mdpAgents.py
-# parsons/20-nov-2017
-#
-# Version 1
+# Shigeng/09-nov-2022
 #
 # The starting point for CW2.
 #
