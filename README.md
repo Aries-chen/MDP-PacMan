@@ -1,7 +1,7 @@
 # MDP-PacMan
 MDP Agent in Pac-Man Game
 
-![image](https://github.com/Aries-chen/MDP-PacMan/assets/62194666/b39c152c-1acb-4bfc-8aa0-94f26c0498af)
+![Android](run.gif)
 
 This project was developed while I was learning about Artificial Intelligence Reasoning and Decision Making. The entire structure has been implemented except for mdpAgents.py, where I write code to help PacMan survive.
 
@@ -11,10 +11,10 @@ Prior knowledge of Markov Decision Processes is recommended. Note that you can o
 
 Value iteration:
 
-![image](https://github.com/Aries-chen/MDP-PacMan/assets/62194666/211a0c60-4e21-421a-a88a-9318029605ce)
 
 * Solution: "Bellman equation + value iteration" was used to find the optimal policy, and "breadth-first search + Manhattan distance" was used to perceive information about hazards and benefits over a range.
 
+![image](https://github.com/Aries-chen/MDP-PacMan/assets/62194666/211a0c60-4e21-421a-a88a-9318029605ce)
 
 (1) evaluate whether your code can win games in smallGrid by running:
 
@@ -35,3 +35,5 @@ And -q runs the game without the interface (making it faster). I would suggest r
 * Results: Achieved excellence results in both small and medium-sized grids
 
 I think BFS is crucial in saving the PacMan as it allows to sense the enviroment and decide when to approach a scared ghost-eater and when to leave a ghost in a sinful state. 
+
+![image](https://github.com/Aries-chen/MDP-PacMan/assets/62194666/b39c152c-1acb-4bfc-8aa0-94f26c0498af)
